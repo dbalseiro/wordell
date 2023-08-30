@@ -1,6 +1,8 @@
 module Main (main) where
 
-import Lib
+import Wordell.Game (game)
+
+import Polysemy (runFinal)
 
 main :: IO ()
-main = someFunc
+main = runFinal game

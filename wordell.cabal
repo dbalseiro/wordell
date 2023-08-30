@@ -25,7 +25,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Wordell.Game
   other-modules:
       Paths_wordell
   hs-source-dirs:
@@ -46,6 +46,7 @@ library
       base >=4.7 && <5
     , polysemy
     , polysemy-plugin
+    , text
   default-language: Haskell2010
 
 executable wordell-exe
@@ -70,6 +71,7 @@ executable wordell-exe
       base >=4.7 && <5
     , polysemy
     , polysemy-plugin
+    , text
     , wordell
   default-language: Haskell2010
 
@@ -96,5 +98,6 @@ test-suite wordell-test
       base >=4.7 && <5
     , polysemy
     , polysemy-plugin
+    , text
     , wordell
   default-language: Haskell2010
