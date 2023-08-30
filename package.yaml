@@ -24,6 +24,7 @@ dependencies:
 - polysemy
 - polysemy-plugin
 - text
+- random
 
 ghc-options:
 - -Wall

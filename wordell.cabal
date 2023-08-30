@@ -46,6 +46,7 @@ library
       base >=4.7 && <5
     , polysemy
     , polysemy-plugin
+    , random
     , text
   default-language: Haskell2010
 
@@ -71,6 +72,7 @@ executable wordell-exe
       base >=4.7 && <5
     , polysemy
     , polysemy-plugin
+    , random
     , text
     , wordell
   default-language: Haskell2010
@@ -98,6 +100,7 @@ test-suite wordell-test
       base >=4.7 && <5
     , polysemy
     , polysemy-plugin
+    , random
     , text
     , wordell
   default-language: Haskell2010
