@@ -2,7 +2,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE BlockArguments #-}
 
-module Wordell.Game (game, GameWord(..), RandomWord(..), WordleDisplay(..)) where
+module Wordell.Game (game, Guess(..), GameWord(..), RandomWord(..), WordleDisplay(..), askGuess) where
 
 import Data.Text (Text)
 import qualified Data.Text as T
